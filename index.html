@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Meta tags -->
+  <meta name="title" content="Luís Duarte - Portfólio Desenvolvedor Front-End">
+  <meta name="description " content="Portfólio pessoal desenvolvido para amostra de projetos">
+  <!-- -->
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!--  -->
+
+  <!-- Google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+  <!--  -->
+
+  <!-- Material link icon -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <!--  -->
+
+  <!-- Custom css links -->
+  <link rel="stylesheet" href="./css/style.css">
+  <!--  -->
+
+
+  <title>Luís Duarte - Portfólio Desenvolvedor Front-End</title>
+
+  <!--  Scroll reveal -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+  <header class="topbar">
+
+    <a href="#" class="logo">
+      <!-- <img src="./assets/images/Logo_dark.png" alt="Portfolio" width="145" height="32" class="dark">
+
+      <img src="./assets/images/Logo_light.png" alt="Portfolio" width="145" height="32" class="light"> -->
+    </a>
+
+    <button class="icon-btn theme-btn" data-theme-btn>
+      <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+
+      <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+      <div class="state-layer"></div>
+    </button>
+
+  </header>
+
+  <main>
+
+    <article>
+
+      <!-- hero section -->
+
+      <section class="section hero">
+
+
+        <div class="container">
+
+          <div class="hero-banner">
+            <img src="./assets/images/profile.png" width="240" height="240" 
+            alt="Luis Duarte" class="img-cover">
+          </div>
+
+
+          <div class="hero-content">
+
+            <h1 class="display-small">Luís Duarte</h1>
+
+            <span class="label-large section-subtitle">Desenvolvedor Front-end</span>
+
+            <p class="body-large section-text">Um entusiasta da web com um profundo amor pela criação e design de sites envolventes e funcionais
+            </p>
+
+            <!-- <div class="btn-wrapper">
+              <a href="mailto:augusto_df92@hotmail.com" class="chip">
+                <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+
+                <span class="label-large">augusto_df92@hotmail.com</span>
+
+                <div class="state-layer"></div>
+              </a>
+
+              <a href="tel:+5551983354210" class="chip">
+                <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+
+                <span class="label-large">+51983354210</span>
+
+                <div class="state-layer"></div>
+              </a>
+            </div> -->
+
+
+          </div>
+
+          
+        </div>
+
+
+      </section>
+
+      <!-- about section -->
+
+      <div class="article">
+
+        <div class="about-card">
+
+          <h2 class="card-title title-medium">Sobre Mim</h2>
+
+          <p class="body-medium card-text">Minha jornada começou com a curiosidade de entender como as páginas da web ganham vida. Ao longo dos anos, aprimorei minhas habilidades com ferramentas de desenvolvimento, como HTML, CSS e programação em JavaScript. Essa combinação entre habilidades técnicas e criatividade me permite transformar ideias em sites visualmente atraentes e altamente funcionais. 
+          </p>
+
+          <ul class="about-list">
+
+            <li class="list-item">
+              <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+
+              <span class="label-medium">Porto Alegre, Rio Grande do Sul </span>
+            </li>
+
+            <li class="list-item">
+              <span class="material-symbols-outlined" aria-hidden="true"> work </span>
+
+              <span class="label-medium">Desenvolvedor Freelancer </span>
+            </li>
+
+            <!-- <li class="list-item">
+              <span class="material-symbols-outlined" aria-hidden="true"> captive_portal 
+              </span>
+
+              <span class="label-medium">Desenvolvedor Freelancer </span>
+            </li> -->
+
+          </ul>
+
+        </div>
+
+        <div>
+
+          <!-- primary tab -->
+
+          <div class="primary-tabs">
+
+            <button class="tab-btn active" data-tab-btn="project">
+              <span class="tab-text title-small">Projetos Recentes</span>
+
+              <div class="state-layer"></div>
+            </button>
+
+            <button class="tab-btn" data-tab-btn="resume">
+              <span class="tab-text title-small">Serviços</span>
+
+              <div class="state-layer"></div>
+            </button>
+
+            <button class="tab-btn" data-tab-btn="contact">
+              <span class="tab-text title-small">Contato</span>
+
+              <div class="state-layer"></div>
+            </button>
+
+          </div>
+
+          <!-- projects tab -->
+
+          <section class="section tab-content active" data-tab-content="project">
+
+            <div class="container">
+              <div class="project-list">
+
+                <div class="card">
+
+                  <figure class="card-banner img-holder"
+                  style="--width: 334; --heigth: 180;">
+                    <img src="./assets/images/Restaurante.jpg" alt="Primeiro Projeto" width="334" height="180" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+
+                    <span class="label-large card-subtitle">Página para Restaurantes com Design elegante</span>
+
+                    <h3 class="title-large card-title">Restaurante Website</h3>
+
+                  </div>
+
+                <a href="https://lduarte7.github.io/Restaurante/" target="_blank"  class="state-layer"></a>
+
+                </div>
+
+                <div class="card">
+
+                  <figure class="card-banner img-holder"
+                  style="--width: 334; --heigth: 180;">
+                    <img src="./assets/images/project-2.png" alt="Segundo Projeto" width="334" height="180" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+
+                    <span class="label-large card-subtitle">Página para Studio de Arquitetura</span>
+
+                    <h3 class="title-large card-title">Studio Tribus - Arquitetura de Exteriores</h3>
+
+                  </div>
+
+                <a href="https://studiotribus.com.br/" target="_blank" class="state-layer"></a>
+
+                </div>
+
+                <div class="card">
+
+                  <figure class="card-banner img-holder"
+                  style="--width: 334; --heigth: 180;">
+                    <img src="./assets/images/project-3.png" alt="Terceiro Projeto" width="334" height="180" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+
+                    <span class="label-large card-subtitle">Landing page para captação de clientes</span>
+
+                    <h3 class="title-large card-title">Clínica de Psicologia Online</h3>
+
+                  </div>
+
+                <a href="https://www.psivictoriameneghetti.com/" target="_blank" class="state-layer"></a>
+
+                </div>
+
+                <div class="card">
+
+                  <figure class="card-banner img-holder"
+                  style="--width: 334; --heigth: 180;">
+                    <img src="./assets/images/project-4.png" alt="Quarto Projeto" width="334" height="180" class="img-cover">
+                  </figure>
+                  
+                  <div class="card-content">
+
+                    <span class="label-large card-subtitle">Página para venda de Cursos</span>
+
+                    <h3 class="title-large card-title">YouDev Cursos</h3>
+
+                  </div>
+
+                <a href="https://lduarte7.github.io/projeto-youdev/" target="_blank" class="state-layer"></a>
+
+                </div>
+
+              </div>
+            </div>
+
+          </section>
+
+          <!-- resume section -->
+
+          <section class="section tab-content resume-tab" data-tab-content="resume">
+
+            <div class="container">
+
+              <h2 class="section-title title-small">Minha Abordagem</h2>
+
+              <ul class="list">
+
+                <li class="resume-item">
+                  <div class="resume-card">
+
+                    <span class="body-medium card-text">Acredito que cada negócio é único, e por isso minha abordagem começa com ouvir você. Compreender seus objetivos, valores e identidade é fundamental para criar um site que não apenas reflita sua essência, mas também atenda às necessidades do seu público-alvo. Cada elemento do site é estrategicamente planejado para garantir uma experiência excepcional ao usuário, desde a navegação fluida até a apresentação visual impressionante.</span>
+
+                  </div>
+                </li>
+
+              </ul>
+
+              <h2 class="section-title title-small">Especialidades</h2>
+
+              <ul class="list">
+
+                <li class="resume-item">
+
+                  <div class="resume-card">
+
+                    <p class="body-large">
+                      <span class="icon">
+                        <ion-icon name="color-palette-outline"></ion-icon> Design Personalizado
+                      </span>
+                    </p>
+
+                    <span class="label-medium card-subtitle">Não acredito em soluções genéricas. Cada site que crio é totalmente personalizado para destacar a singularidade do seu negócio.</span>
+
+                  </div>
+
+                </li>
+
+                <li class="resume-item">
+
+                  <div class="resume-card"> 
+
+                    <p class="body-large">
+                      <ion-icon name="code-slash-outline"> </ion-icon> Funcionalidade Avançada
+                    </p>
+
+                    <span class="label-medium card-subtitle"> Além da aparência, foco em funcionalidades que melhoram a usabilidade e atendem às suas metas, seja a venda de produtos, captação de leads ou compartilhamento de informações.</span>
+
+                  </div>
+
+                </li>
+
+                <li class="resume-item">
+
+                  <div class="resume-card">
+
+                    <p class="body-large">
+                      <ion-icon name="phone-portrait-outline"></ion-icon> Responsividade 
+                    </p>
+
+                    <span class="label-medium card-subtitle">Com a crescente utilização de dispositivos móveis, garanto que seu site terá um design responsivo, adaptando-se perfeitamente a diferentes tamanhos de tela.</span>
+
+                  </div>
+
+                </li>
+
+                <li class="resume-item">
+
+                  <div class="resume-card">
+
+                    <p class="body-large">
+                      <ion-icon name="earth-outline"></ion-icon> SEO Integrado (Search Engine Optimization)
+                    </p>
+
+                    <span class="label-medium card-subtitle">Otimizo cada página para motores de busca, aumentando a visibilidade do seu site e direcionando tráfego orgânico qualificado.</span>
+
+                  </div>
+
+                </li>
+
+                <li class="resume-item">
+
+                  <div class="resume-card">
+
+                    <p class="body-large">
+                      <ion-icon name="construct-outline"></ion-icon> Manutenção Contínua
+                    </p>
+
+                    <span class="label-medium card-subtitle">Minha parceria não termina com o lançamento do site. Estou disponível para atualizações, ajustes e suporte contínuo.</span>
+
+                  </div>
+
+                </li>
+
+                
+              </ul>
+
+              <h2 class="section-title title-small">Tecnologias que domino</h2>
+
+              <ul class="resume-bottom-list">
+
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/html5.svg" width="28" height="28" loading="lazy" alt="HTML5" class="icon">
+                  
+                  <span class="label-medium">HTML5</span>
+                </li>
+
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/css3.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                  
+                  <span class="label-medium">CSS3</span>
+                </li>
+
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/javascript.svg" width="28" height="28" loading="lazy" alt="CSS3" class="icon">
+                  
+                  <span class="label-medium">JavaScript</span>
+                </li>
+
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/github.svg" width="28" height="28" loading="lazy" alt="Github" class="icon">
+                  
+                  <span class="label-medium">GitHub</span>
+                </li>
+
+                <li class="resume-bottom-item">
+                  <img src="./assets/images/VS_code.svg" width="28" height="28" loading="lazy" alt="VScode" class="icon">
+                  
+                  <span class="label-medium">VS Code</span>
+                </li>
+
+              </ul>
+              
+            </div>
+
+          </section>
+
+          <!-- contact section -->
+
+          <section class="section tab-content contact-tab" data-tab-content="contact">
+
+            <div class="container">
+
+              <div class="contact-info">
+
+                <h4 class="section-title title-small">Informações para Contato</h4>
+
+                <ul class="contact-info-list">
+
+                  <li class="contact-info-item">
+
+                    <div class="icon-box">
+                      <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                    </div>
+
+                    <div class="info-content">
+
+                      <p class="label-small info-title">E-mail</p>
+
+                      <a href="mailto:augusto_df92@hotmail.com" class="label-small info-text">augusto_df92@hotmail.com</a>
+
+                    </div>
+
+                  </li>
+
+                  <li class="contact-info-item">
+
+                    <div class="icon-box">
+                      <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                    </div>
+
+                    <div class="info-content">
+
+                      <p class="label-small info-title">Entre em contato</p>
+
+                      <a href="tel:+5551983354210" class="label-small info-text">+51983354210</a>
+
+                    </div>
+
+                  </li>
+
+                  <li class="contact-info-item">
+
+                    <div class="icon-box">
+                      <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                    </div>
+
+                    <div class="info-content">
+
+                      <p class="label-small info-title">Localização</p>
+
+                      <a href="#" class="label-small info-text">Porto Alegre - Rio Grande do Sul, Brasil</a>
+
+                    </div>
+
+                  </li>
+
+                </ul>
+
+              </div>
+
+              <div class="contact-form">
+
+                <h3 class="title-large">Vamos trabalhar juntos?</h3>
+
+                <form action="" method="post" class="input-wrapper">
+
+                  <input type="text" name="nome" placeholder="Nome*" required class="input-field">
+
+                  <input type="email" name="email" placeholder="Email*" required class="input-field">
+
+                  <input type="text" name="assunto" placeholder="Assunto" class="input-field">
+
+                  <textarea name="mensagem" placeholder="Mensagem*" required class="textarea"></textarea>
+
+                  <button class="btn" type="submit">
+                    <span class="label-large">Enviar Mensagem</span>
+
+                    <div class="state-layer"></div>
+                  </button>
+
+                </form>
+
+              </div>
+
+            </div>
+
+          </section>
+
+
+        </div>
+
+      </div>
+
+    </article>
+
+
+  </main>
+
+  <!-- footer -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <p class="body-medium">Copyright 2023. Todos os direitos reservados by Luís Duarte</p>
+      
+    </div>
+  </footer>
+
+  <!-- custom js links -->
+  <script src="./js/script.js"></script>
+  <script>
+    ScrollReveal ({
+      reset: false,
+      distance: '100px',
+      duration: 2500,
+      delay: 400
+    });
+
+    ScrollReveal().reveal('.hero .display-small', { delay: 200 , origin: 'top', distance: '400px' });    ScrollReveal().reveal('.hero .section-subtitle', { delay: 400 , origin: 'left'});
+    ScrollReveal().reveal('.hero .section-text', { delay: 400 , origin: 'right'});
+    ScrollReveal().reveal('.project-list', { delay: 500 , origin: 'left'});
+  </script>
+  <!-- =========== -->
+
+  <!-- ionicons -->
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+  <!-- =========== -->
+</body>
+</html>
